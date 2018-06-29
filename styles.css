@@ -36,3 +36,23 @@
     width:100px;
     height:100px;
 }
+.aboutME{
+    font-size:25px;
+    font-family: 'Pacifico', cursive;
+}
+.circuit-img{
+    display:block;
+    margin:0 auto;
+}
+.arrow-about{
+    width:100px;
+    height:100px;
+}
+.contacts{
+  width:500px;
+  margin:0 auto;
+}
+.contacts p{
+    text-align:center;
+    width:100%;
+}
