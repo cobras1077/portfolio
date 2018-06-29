@@ -1,7 +1,7 @@
 .row{   
 
-    background-color:black;
-    color:white;
+    background-color:maroon;
+    color:black;
     font-size:20px;
 }
 .headshot{
@@ -55,4 +55,14 @@
 .contacts p{
     text-align:center;
     width:100%;
+    color:white;
+    font-size:50px;
+}
+.contact{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.backgroundcontacts{
+    background-image: url(http://paperlief.com/images/pixel-background-gif-wallpaper-4.jpg);
 }
