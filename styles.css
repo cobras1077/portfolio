@@ -1,12 +1,14 @@
 .row{   
 
     background-color:maroon;
-    color:black;
+    color:white;
     font-size:20px;
 }
 .headshot{
-    width:20%;
-   
+    
+    transform:rotate(90deg);
+    height:70%;
+    
 }
 .mid{
     background-color:white;
@@ -20,12 +22,17 @@
     justify-content:space-evenly;
     border:solid 10px black;
     font-size:30px;
+    height:40%;
 }
 .aboutme{
     border:1px solid black;
     align-items:center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR89H7x2Bmu4PDuVpUoY2WPnLmO1pqdVur1Sc7pXnyI8Cgp_Hb_FA);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
 }
-.footer p{
+.footer{
 }
 .footer {
     display:flex;
@@ -36,9 +43,12 @@
     width:100px;
     height:100px;
 }
-.aboutME{
+.aboutME {
     font-size:25px;
     font-family: 'Pacifico', cursive;
+}
+.aboutME img{
+    background-size:cover;
 }
 .circuit-img{
     display:block;
@@ -65,4 +75,38 @@
 }
 .backgroundcontacts{
     background-image: url(http://paperlief.com/images/pixel-background-gif-wallpaper-4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+#portBody{
+    background-image: url(http://1.bp.blogspot.com/-msrP7TN3Oaw/UjuLdilAsCI/AAAAAAAACiY/ooP54XYv1ps/s1600/black+&+white+swirls+shyndesign.jpg);
+    color:white;
+
+}
+.colorTags{
+    color:gray;
+    font-size:50px;
+}
+.link1{
+    display:flex;
+}
+.link2{
+    display:flex;
+}
+#links1{
+    width:50%;
+}
+#links2{
+    width:50%;
+}
+#links3{
+    width:50%;
+}
+#links4{
+    width:50%;
+}
+#pic{
+    width:550px;
+    height:250px;
 }
